@@ -1,5 +1,4 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { View, Text } from "react-native";
 import { useEffect, useState } from "react";
 import { getQuestions, postAnswer } from "@/lib/api";
 import QuestionCard from "../../components/QuestionCard";
