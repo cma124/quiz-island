@@ -5,10 +5,6 @@ import { getQuestions, postAnswer } from "@/lib/api";
 import QuestionCard from "../../components/QuestionCard";
 import ResultCard from "@/components/ResultCard";
 
-export const options = {
-  headerShown: false
-};
-
 export default function QuizScreen() {
   const { sessionId } = useLocalSearchParams();
   const router = useRouter();
